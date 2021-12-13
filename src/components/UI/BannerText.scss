@@ -1,0 +1,10 @@
+@import '../../styles/var.scss';
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 0 96px 0;
+    height: 630px;
+    color: $color-banner;
+}

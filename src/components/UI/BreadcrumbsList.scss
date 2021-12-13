@@ -1,0 +1,10 @@
+@import '../../styles/mixins.scss';
+
+.breadcrumbsList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    @include font-regular;
+    font-size: 14px;
+}

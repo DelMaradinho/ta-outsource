@@ -1,0 +1,8 @@
+@import '../../styles/mixins.scss';
+
+.serviceTitle {
+    margin: 0 0 16px 0;
+    @include font-bold;
+    font-size: 104px;
+    line-height: 95%;
+}

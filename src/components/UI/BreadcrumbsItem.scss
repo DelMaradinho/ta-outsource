@@ -1,0 +1,17 @@
+@import '../../styles/var.scss';
+
+.breadcrumbsItem {
+    color: $color-banner;
+    &:not(:last-child){
+        &::after {
+            content: url(../../img/arrow-right.svg);
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.breadcrumbsLink {
+    text-decoration: none;
+    color: inherit;
+}
